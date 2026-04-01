@@ -1,0 +1,43 @@
+body {
+  background-color: #2c2c2c; /* gelap tapi tidak terlalu gelap */
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: #3a3a3a;
+}
+
+th, td {
+  border: 1px solid #555;
+  padding: 15px;
+  vertical-align: top;
+}
+
+img.character-img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+img.character-img:hover {
+  transform: scale(1.1); /* efek hover membesar */
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.footer {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #3a3a3a;
+  padding: 15px;
+  border-radius: 8px;
+}
